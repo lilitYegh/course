@@ -295,7 +295,6 @@ int main ()
 			change_matrix(dice, side,  x, y, count, n);
 			clry = (clry == 4 * n + 1) ? 1 : clry;	
     			print(dice, clrx, clry); 
-			std::cout<<clrx<<" "<<clry;
 			last = curr;
 			
 		}
